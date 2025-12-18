@@ -1,26 +1,45 @@
 import { authMiddleware } from "@surge/auth/proxy";
+import { internationalizationMiddleware } from "@surge/internationalization/proxy";
+import { parseError } from "@surge/observability/error";
+import { secure } from "@surge/security";
 import {
   noseconeOptions,
   noseconeOptionsWithToolbar,
   securityMiddleware,
 } from "@surge/security/proxy";
-import type { NextProxy } from "next/server";
-import { env } from "./env";
+import { createNEMO } from "@rescale/nemo";
+import { type NextProxy, type NextRequest, NextResponse } from "next/server";
+import { env } from "@/env";
+
+export const config = {
+  // matcher tells Next.js which routes to run the middleware on. This runs the
+  // middleware on all routes except for static assets and Posthog ingest
+  matcher: ["/((?!_next/static|_next/image|ingest|favicon.ico).*)"],
+};
 
 const securityHeaders = env.FLAGS_SECRET
   ? securityMiddleware(noseconeOptionsWithToolbar)
   : securityMiddleware(noseconeOptions);
 
-// Clerk middleware wraps other middleware in its callback
-// For apps using Clerk, compose middleware inside authMiddleware callback
-// For apps without Clerk, use createNEMO for composition (see apps/web)
-export default authMiddleware(() => securityHeaders()) as unknown as NextProxy;
+// Compose non-Clerk middleware with Nemo
+const composedMiddleware = createNEMO(
+  {},
+  {
+    before: [internationalizationMiddleware],
+  }
+);
 
-export const config = {
-  matcher: [
-    // Skip Next.js internals and all static files, unless found in search params
-    "/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)",
-    // Always run for API routes
-    "/(api|trpc)(.*)",
-  ],
-};
+// Clerk middleware wraps other middleware in its callback
+export default authMiddleware(async (_auth, request, event) => {
+  // Run security headers first
+  const headersResponse = securityHeaders();
+
+  // Then run composed middleware (i18n, etc)
+  const middlewareResponse = await composedMiddleware(
+    request as unknown as NextRequest,
+    event
+  );
+
+  // Return middleware response if it exists, otherwise headers response
+  return middlewareResponse || headersResponse;
+}) as unknown as NextProxy;
