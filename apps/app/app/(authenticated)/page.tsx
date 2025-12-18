@@ -8,8 +8,8 @@ import { AvatarStack } from "./components/avatar-stack";
 import { Cursors } from "./components/cursors";
 import { Header } from "./components/header";
 
-const title = "Acme Inc";
-const description = "My application.";
+const title = "Surge Next Platform";
+const description = "This is a demo app for Surge Next Platform.";
 
 const CollaborationProvider = dynamic(() =>
   import("./components/collaboration-provider").then(
@@ -33,12 +33,6 @@ const App = async () => {
   return (
     <>
       <Header page="Data Fetching" pages={["Building Your Application"]}>
-        {env.LIVEBLOCKS_SECRET && (
-          <CollaborationProvider orgId={orgId}>
-            <AvatarStack />
-            <Cursors />
-          </CollaborationProvider>
-        )}
       </Header>
       <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
         <div className="grid auto-rows-min gap-4 md:grid-cols-3">
