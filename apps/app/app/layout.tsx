@@ -1,9 +1,9 @@
 import { env } from "@/env";
 import "./styles.css";
-import { AnalyticsProvider } from "@repo/analytics/provider";
-import { DesignSystemProvider } from "@repo/design-system";
-import { fonts } from "@repo/design-system/lib/fonts";
-import { Toolbar } from "@repo/feature-flags/components/toolbar";
+import { AnalyticsProvider } from "@surge/analytics/provider";
+import { DesignSystemProvider } from "@surge/design-system";
+import { fonts } from "@surge/design-system/lib/fonts";
+import { Toolbar } from "@surge/feature-flags/components/toolbar";
 import type { ReactNode } from "react";
 
 type RootLayoutProperties = {

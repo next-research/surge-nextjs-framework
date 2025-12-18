@@ -1,5 +1,5 @@
 {
-  "name": "@repo/security",
+  "name": "@surge/security",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -14,7 +14,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
+    "@surge/typescript-config": "workspace:*",
     "typescript": "^5.9.3"
   }
 }

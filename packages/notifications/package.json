@@ -1,5 +1,5 @@
 {
-  "name": "@repo/notifications",
+  "name": "@surge/notifications",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
+    "@surge/typescript-config": "workspace:*",
     "typescript": "^5.9.3",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",

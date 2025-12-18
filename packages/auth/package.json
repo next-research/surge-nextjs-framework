@@ -1,5 +1,5 @@
 {
-  "name": "@repo/auth",
+  "name": "@surge/auth",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@clerk/types": "^4.101.5",
-    "@repo/typescript-config": "workspace:*",
+    "@surge/typescript-config": "workspace:*",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",

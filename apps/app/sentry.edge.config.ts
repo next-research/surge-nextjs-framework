@@ -1,3 +1,3 @@
-import { initializeSentry } from "@repo/observability/edge";
+import { initializeSentry } from "@surge/observability/edge";
 
 initializeSentry();

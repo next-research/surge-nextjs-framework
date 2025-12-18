@@ -10,7 +10,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./"),
-      "@repo": path.resolve(__dirname, "../../packages"),
+      "@surge": path.resolve(__dirname, "../../packages"),
     },
   },
 });

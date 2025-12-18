@@ -1,5 +1,5 @@
 {
-  "name": "@repo/feature-flags",
+  "name": "@surge/feature-flags",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,9 +7,9 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@repo/analytics": "workspace:*",
-    "@repo/auth": "workspace:*",
-    "@repo/design-system": "workspace:*",
+    "@surge/analytics": "workspace:*",
+    "@surge/auth": "workspace:*",
+    "@surge/design-system": "workspace:*",
     "@t3-oss/env-nextjs": "^0.13.8",
     "@vercel/toolbar": "^0.1.41",
     "flags": "^4.0.2",
@@ -20,7 +20,7 @@
     "next": "16.0.10"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
+    "@surge/typescript-config": "workspace:*",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",

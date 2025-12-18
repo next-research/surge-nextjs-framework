@@ -1,10 +1,10 @@
-import { keys as analytics } from "@repo/analytics/keys";
-import { keys as auth } from "@repo/auth/keys";
-import { keys as database } from "@repo/database/keys";
-import { keys as email } from "@repo/email/keys";
-import { keys as core } from "@repo/next-config/keys";
-import { keys as observability } from "@repo/observability/keys";
-import { keys as payments } from "@repo/payments/keys";
+import { keys as analytics } from "@surge/analytics/keys";
+import { keys as auth } from "@surge/auth/keys";
+import { keys as database } from "@surge/database/keys";
+import { keys as email } from "@surge/email/keys";
+import { keys as core } from "@surge/next-config/keys";
+import { keys as observability } from "@surge/observability/keys";
+import { keys as payments } from "@surge/payments/keys";
 import { createEnv } from "@t3-oss/env-nextjs";
 
 export const env = createEnv({

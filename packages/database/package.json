@@ -1,5 +1,5 @@
 {
-  "name": "@repo/database",
+  "name": "@surge/database",
   "version": "0.0.0",
   "main": "./index.ts",
   "types": "./index.ts",
@@ -21,7 +21,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
+    "@surge/typescript-config": "workspace:*",
     "@types/node": "24.10.1",
     "@types/ws": "^8.18.1",
     "bufferutil": "^4.0.9",

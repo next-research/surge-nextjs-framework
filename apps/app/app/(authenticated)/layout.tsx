@@ -1,7 +1,7 @@
-import { auth, currentUser } from "@repo/auth/server";
-import { SidebarProvider } from "@repo/design-system/components/ui/sidebar";
-import { showBetaFeature } from "@repo/feature-flags";
-import { secure } from "@repo/security";
+import { auth, currentUser } from "@surge/auth/server";
+import { SidebarProvider } from "@surge/design-system/components/ui/sidebar";
+import { showBetaFeature } from "@surge/feature-flags";
+import { secure } from "@surge/security";
 import type { ReactNode } from "react";
 import { env } from "@/env";
 import { NotificationsProvider } from "./components/notifications-provider";
