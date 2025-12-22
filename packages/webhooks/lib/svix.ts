@@ -1,5 +1,5 @@
 import "server-only";
-import { auth } from "@surge/auth/server";
+import { auth } from "@surgeteam/auth/server";
 import { Svix } from "svix";
 import { keys } from "../keys";
 

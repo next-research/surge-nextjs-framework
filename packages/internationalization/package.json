@@ -1,5 +1,5 @@
 {
-  "name": "@surge/internationalization",
+  "name": "@surgeteam/internationalization",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "server-only": "^0.0.1"
   },
   "devDependencies": {
-    "@surge/typescript-config": "workspace:*",
+    "@surgeteam/typescript-config": "workspace:*",
     "@types/negotiator": "^0.6.4",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",

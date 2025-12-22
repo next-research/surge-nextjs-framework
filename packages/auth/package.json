@@ -1,5 +1,5 @@
 {
-  "name": "@surge/auth",
+  "name": "@surgeteam/auth",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@clerk/types": "^4.101.5",
-    "@surge/typescript-config": "workspace:*",
+    "@surgeteam/typescript-config": "workspace:*",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",

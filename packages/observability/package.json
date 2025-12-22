@@ -1,5 +1,5 @@
 {
-  "name": "@surge/observability",
+  "name": "@surgeteam/observability",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@surge/typescript-config": "workspace:*",
+    "@surgeteam/typescript-config": "workspace:*",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",

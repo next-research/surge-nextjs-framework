@@ -1,4 +1,4 @@
-import { cn } from "@surge/design-system/lib/utils"
+import { cn } from "@surgeteam/design-system/lib/utils"
 
 function Kbd({ className, ...props }: React.ComponentProps<"kbd">) {
   return (

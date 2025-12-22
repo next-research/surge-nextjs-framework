@@ -4,7 +4,7 @@ import * as React from "react"
 import { DropdownMenu as DropdownMenuPrimitive } from "radix-ui"
 import { CheckIcon, ChevronRightIcon, CircleIcon } from "lucide-react"
 
-import { cn } from "@surge/design-system/lib/utils"
+import { cn } from "@surgeteam/design-system/lib/utils"
 
 function DropdownMenu({
   ...props

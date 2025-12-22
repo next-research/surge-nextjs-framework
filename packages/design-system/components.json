@@ -11,11 +11,11 @@
     "prefix": ""
   },
   "aliases": {
-    "components": "@surge/design-system/components",
-    "utils": "@surge/design-system/lib/utils",
-    "hooks": "@surge/design-system/hooks",
-    "lib": "@surge/design-system/lib",
-    "ui": "@surge/design-system/components/ui"
+    "components": "@surgeteam/design-system/components",
+    "utils": "@surgeteam/design-system/lib/utils",
+    "hooks": "@surgeteam/design-system/hooks",
+    "lib": "@surgeteam/design-system/lib",
+    "ui": "@surgeteam/design-system/components/ui"
   },
   "iconLibrary": "lucide"
 }

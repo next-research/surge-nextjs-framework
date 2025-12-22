@@ -3,7 +3,7 @@
 import * as React from "react"
 import { Slider as SliderPrimitive } from "radix-ui"
 
-import { cn } from "@surge/design-system/lib/utils"
+import { cn } from "@surgeteam/design-system/lib/utils"
 
 function Slider({
   className,

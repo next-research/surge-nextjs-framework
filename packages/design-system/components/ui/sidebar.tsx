@@ -5,25 +5,25 @@ import { Slot as SlotPrimitive } from "radix-ui"
 import { cva, type VariantProps } from "class-variance-authority"
 import { PanelLeftIcon } from "lucide-react"
 
-import { useIsMobile } from "@surge/design-system/hooks/use-mobile"
-import { cn } from "@surge/design-system/lib/utils"
-import { Button } from "@surge/design-system/components/ui/button"
-import { Input } from "@surge/design-system/components/ui/input"
-import { Separator } from "@surge/design-system/components/ui/separator"
+import { useIsMobile } from "@surgeteam/design-system/hooks/use-mobile"
+import { cn } from "@surgeteam/design-system/lib/utils"
+import { Button } from "@surgeteam/design-system/components/ui/button"
+import { Input } from "@surgeteam/design-system/components/ui/input"
+import { Separator } from "@surgeteam/design-system/components/ui/separator"
 import {
   Sheet,
   SheetContent,
   SheetDescription,
   SheetHeader,
   SheetTitle,
-} from "@surge/design-system/components/ui/sheet"
-import { Skeleton } from "@surge/design-system/components/ui/skeleton"
+} from "@surgeteam/design-system/components/ui/sheet"
+import { Skeleton } from "@surgeteam/design-system/components/ui/skeleton"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@surge/design-system/components/ui/tooltip"
+} from "@surgeteam/design-system/components/ui/tooltip"
 
 const SIDEBAR_COOKIE_NAME = "sidebar_state"
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7

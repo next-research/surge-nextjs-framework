@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { cn } from "@surge/design-system/lib/utils"
+import { cn } from "@surgeteam/design-system/lib/utils"
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
   return (

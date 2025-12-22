@@ -11,7 +11,7 @@
     "noEmit": true,
     "paths": {
       "@/*": ["./*"],
-      "@surge/*": ["../../packages/*"]
+      "@surgeteam/*": ["../../packages/*"]
     }
   },
   "exclude": ["node_modules"]

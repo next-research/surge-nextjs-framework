@@ -1,5 +1,5 @@
 {
-  "extends": "@surge/typescript-config/nextjs.json",
+  "extends": "@surgeteam/typescript-config/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "plugins": [
@@ -8,8 +8,8 @@
       }
     ],
     "paths": {
-      "@surge/*": ["../*"],
-      "@surge/design-system/*": ["./*"]
+      "@surgeteam/*": ["../*"],
+      "@surgeteam/design-system/*": ["./*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],

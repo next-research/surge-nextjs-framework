@@ -1,5 +1,5 @@
 {
-  "name": "@surge/storage",
+  "name": "@surgeteam/storage",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,6 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@surge/typescript-config": "workspace:*"
+    "@surgeteam/typescript-config": "workspace:*"
   }
 }

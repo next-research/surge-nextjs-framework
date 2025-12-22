@@ -1,4 +1,4 @@
-import { AuthProvider } from "@surge/auth/provider";
+import { AuthProvider } from "@surgeteam/auth/provider";
 import type { ThemeProviderProps } from "next-themes";
 import { Toaster } from "./components/ui/sonner";
 import { TooltipProvider } from "./components/ui/tooltip";
