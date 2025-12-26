@@ -1,5 +1,5 @@
-import { auth } from "@surge/auth/server";
-import { database } from "@surge/database";
+import { auth } from "@surgeteam/auth/server";
+import { database } from "@surgeteam/database";
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";

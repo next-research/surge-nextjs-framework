@@ -1,4 +1,4 @@
-import { ModeToggle } from "@surge/design-system/components/mode-toggle";
+import { ModeToggle } from "@surgeteam/design-system/components/mode-toggle";
 import { CommandIcon } from "lucide-react";
 import type { ReactNode } from "react";
 

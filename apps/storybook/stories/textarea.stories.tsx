@@ -1,4 +1,4 @@
-import { Textarea } from "@surge/design-system/components/ui/textarea";
+import { Textarea } from "@surgeteam/design-system/components/ui/textarea";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

@@ -7,7 +7,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@surge/design-system/components/ui/sheet";
+} from "@surgeteam/design-system/components/ui/sheet";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

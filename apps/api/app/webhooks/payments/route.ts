@@ -1,9 +1,9 @@
-import { analytics } from "@surge/analytics/server";
-import { clerkClient } from "@surge/auth/server";
-import { parseError } from "@surge/observability/error";
-import { log } from "@surge/observability/log";
-import type { Stripe } from "@surge/payments";
-import { stripe } from "@surge/payments";
+import { analytics } from "@surgeteam/analytics/server";
+import { clerkClient } from "@surgeteam/auth/server";
+import { parseError } from "@surgeteam/observability/error";
+import { log } from "@surgeteam/observability/log";
+import type { Stripe } from "@surgeteam/payments";
+import { stripe } from "@surgeteam/payments";
 import { headers } from "next/headers";
 import { NextResponse } from "next/server";
 import { env } from "@/env";

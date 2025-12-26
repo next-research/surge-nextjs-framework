@@ -1,3 +1,3 @@
-import { initializeSentry } from "@surge/observability/instrumentation";
+import { initializeSentry } from "@surgeteam/observability/instrumentation";
 
 export const register = initializeSentry;

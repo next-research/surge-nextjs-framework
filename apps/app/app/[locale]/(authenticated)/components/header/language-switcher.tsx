@@ -1,12 +1,12 @@
 "use client";
 
-import { Button } from "@surge/design-system/components/ui/button";
+import { Button } from "@surgeteam/design-system/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@surge/design-system/components/ui/dropdown-menu";
+} from "@surgeteam/design-system/components/ui/dropdown-menu";
 import { Languages } from "lucide-react";
 import { useParams, usePathname, useRouter } from "next/navigation";
 

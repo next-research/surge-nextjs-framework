@@ -1,7 +1,7 @@
-import { blog } from "@surge/cms";
-import { Feed } from "@surge/cms/components/feed";
-import { Button } from "@surge/design-system/components/ui/button";
-import type { Dictionary } from "@surge/internationalization";
+import { blog } from "@surgeteam/cms";
+import { Feed } from "@surgeteam/cms/components/feed";
+import { Button } from "@surgeteam/design-system/components/ui/button";
+import type { Dictionary } from "@surgeteam/internationalization";
 import { MoveRight, PhoneCall } from "lucide-react";
 import Link from "next/link";
 import { env } from "@/env";

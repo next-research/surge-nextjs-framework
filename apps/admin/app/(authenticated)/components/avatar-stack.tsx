@@ -1,16 +1,16 @@
 "use client";
 
-import { useOthers, useSelf } from "@surge/collaboration/hooks";
+import { useOthers, useSelf } from "@surgeteam/collaboration/hooks";
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@surge/design-system/components/ui/avatar";
+} from "@surgeteam/design-system/components/ui/avatar";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@surge/design-system/components/ui/tooltip";
+} from "@surgeteam/design-system/components/ui/tooltip";
 
 type PresenceAvatarProps = {
   info?: Liveblocks["UserMeta"]["info"];

@@ -6,7 +6,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@surge/design-system/components/ui/navigation-menu";
+} from "@surgeteam/design-system/components/ui/navigation-menu";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

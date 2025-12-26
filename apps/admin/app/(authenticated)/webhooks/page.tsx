@@ -1,4 +1,4 @@
-import { webhooks } from "@surge/webhooks";
+import { webhooks } from "@surgeteam/webhooks";
 import { notFound } from "next/navigation";
 
 export const metadata = {

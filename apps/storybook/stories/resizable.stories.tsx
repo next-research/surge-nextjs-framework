@@ -2,7 +2,7 @@ import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@surge/design-system/components/ui/resizable";
+} from "@surgeteam/design-system/components/ui/resizable";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

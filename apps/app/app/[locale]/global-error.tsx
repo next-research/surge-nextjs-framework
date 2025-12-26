@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@surge/design-system/components/ui/button";
-import { fonts } from "@surge/design-system/lib/fonts";
+import { Button } from "@surgeteam/design-system/components/ui/button";
+import { fonts } from "@surgeteam/design-system/lib/fonts";
 import { captureException } from "@sentry/nextjs";
 import type NextError from "next/error";
 import { useEffect } from "react";

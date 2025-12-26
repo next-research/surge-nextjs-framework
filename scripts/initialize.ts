@@ -78,7 +78,7 @@ const setupOrm = async (packageManager: string) => {
     "run",
     "build",
     filterCommand,
-    "@surge/database",
+    "@surgeteam/database",
   ].join(" ");
 
   await exec(command, execSyncOpts);

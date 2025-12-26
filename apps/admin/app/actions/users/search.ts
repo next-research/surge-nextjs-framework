@@ -4,7 +4,7 @@ import {
   auth,
   clerkClient,
   type OrganizationMembership,
-} from "@surge/auth/server";
+} from "@surgeteam/auth/server";
 import Fuse from "fuse.js";
 
 const getName = (user: OrganizationMembership): string | undefined => {

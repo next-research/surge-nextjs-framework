@@ -1,1 +1,1 @@
-export { default } from "@surge/design-system/postcss.config.mjs";
+export { default } from "@surgeteam/design-system/postcss.config.mjs";

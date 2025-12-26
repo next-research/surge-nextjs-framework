@@ -1,6 +1,6 @@
-import { showBetaFeature } from "@surge/feature-flags";
-import { getDictionary } from "@surge/internationalization";
-import { createMetadata } from "@surge/seo/metadata";
+import { showBetaFeature } from "@surgeteam/feature-flags";
+import { getDictionary } from "@surgeteam/internationalization";
+import { createMetadata } from "@surgeteam/seo/metadata";
 import type { Metadata } from "next";
 import { Cases } from "./components/cases";
 import { CTA } from "./components/cta";
@@ -9,6 +9,7 @@ import { Features } from "./components/features";
 import { Hero } from "./components/hero";
 import { Stats } from "./components/stats";
 import { Testimonials } from "./components/testimonials";
+import { log } from "@surgeteam/observability/log";
 
 type HomeProps = {
   params: Promise<{
@@ -29,6 +30,8 @@ const Home = async ({ params }: HomeProps) => {
   const { locale } = await params;
   const dictionary = await getDictionary(locale);
   const betaFeature = await showBetaFeature();
+
+  log.info("Surge teams framework test log printed!!!!!");
 
   return (
     <>

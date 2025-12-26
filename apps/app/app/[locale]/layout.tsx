@@ -1,11 +1,11 @@
 import "./styles.css";
-import { AnalyticsProvider } from "@surge/analytics/provider";
-import { Toolbar as CMSToolbar } from "@surge/cms/components/toolbar";
-import { DesignSystemProvider } from "@surge/design-system";
-import { fonts } from "@surge/design-system/lib/fonts";
-import { cn } from "@surge/design-system/lib/utils";
-import { Toolbar } from "@surge/feature-flags/components/toolbar";
-import { getDictionary } from "@surge/internationalization";
+import { AnalyticsProvider } from "@surgeteam/analytics/provider";
+import { Toolbar as CMSToolbar } from "@surgeteam/cms/components/toolbar";
+import { DesignSystemProvider } from "@surgeteam/design-system";
+import { fonts } from "@surgeteam/design-system/lib/fonts";
+import { cn } from "@surgeteam/design-system/lib/utils";
+import { Toolbar } from "@surgeteam/feature-flags/components/toolbar";
+import { getDictionary } from "@surgeteam/internationalization";
 import type { ReactNode } from "react";
 
 type RootLayoutProperties = {

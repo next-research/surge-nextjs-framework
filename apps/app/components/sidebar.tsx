@@ -1,4 +1,4 @@
-import { capitalize } from "@surge/design-system/lib/utils";
+import { capitalize } from "@surgeteam/design-system/lib/utils";
 import type { ReactNode } from "react";
 
 type SidebarProperties = {

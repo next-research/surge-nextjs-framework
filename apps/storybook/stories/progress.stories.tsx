@@ -1,4 +1,4 @@
-import { Progress } from "@surge/design-system/components/ui/progress";
+import { Progress } from "@surgeteam/design-system/components/ui/progress";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

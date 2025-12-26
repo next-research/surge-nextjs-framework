@@ -1,10 +1,10 @@
-import { Toaster } from "@surge/design-system/components/ui/sonner";
-import { TooltipProvider } from "@surge/design-system/components/ui/tooltip";
-import { ThemeProvider } from "@surge/design-system/providers/theme";
+import { Toaster } from "@surgeteam/design-system/components/ui/sonner";
+import { TooltipProvider } from "@surgeteam/design-system/components/ui/tooltip";
+import { ThemeProvider } from "@surgeteam/design-system/providers/theme";
 import { withThemeByClassName } from "@storybook/addon-themes";
 import type { Preview } from "@storybook/react";
 
-import "@surge/design-system/styles/globals.css";
+import "@surgeteam/design-system/styles/globals.css";
 
 const preview: Preview = {
   parameters: {

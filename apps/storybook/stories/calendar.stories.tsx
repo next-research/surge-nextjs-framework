@@ -1,4 +1,4 @@
-import { Calendar } from "@surge/design-system/components/ui/calendar";
+import { Calendar } from "@surgeteam/design-system/components/ui/calendar";
 import { action } from "storybook/actions";
 import type { Meta, StoryObj } from "@storybook/react";
 import { addDays } from "date-fns";

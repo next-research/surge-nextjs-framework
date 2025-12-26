@@ -1,20 +1,20 @@
 "use client";
 
-import { OrganizationSwitcher, UserButton } from "@surge/auth/client";
-import { ModeToggle } from "@surge/design-system/components/mode-toggle";
-import { Button } from "@surge/design-system/components/ui/button";
+import { OrganizationSwitcher, UserButton } from "@surgeteam/auth/client";
+import { ModeToggle } from "@surgeteam/design-system/components/mode-toggle";
+import { Button } from "@surgeteam/design-system/components/ui/button";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@surge/design-system/components/ui/collapsible";
+} from "@surgeteam/design-system/components/ui/collapsible";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@surge/design-system/components/ui/dropdown-menu";
+} from "@surgeteam/design-system/components/ui/dropdown-menu";
 import {
   Sidebar,
   SidebarContent,
@@ -32,9 +32,9 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
   useSidebar,
-} from "@surge/design-system/components/ui/sidebar";
-import { cn } from "@surge/design-system/lib/utils";
-import { NotificationsTrigger } from "@surge/notifications/components/trigger";
+} from "@surgeteam/design-system/components/ui/sidebar";
+import { cn } from "@surgeteam/design-system/lib/utils";
+import { NotificationsTrigger } from "@surgeteam/notifications/components/trigger";
 import {
   AnchorIcon,
   BookOpenIcon,

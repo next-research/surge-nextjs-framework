@@ -1,3 +1,3 @@
-import { initializeSentry } from "@surge/observability/server";
+import { initializeSentry } from "@surgeteam/observability/server";
 
 initializeSentry();

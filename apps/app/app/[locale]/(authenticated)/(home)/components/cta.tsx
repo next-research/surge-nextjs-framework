@@ -1,5 +1,5 @@
-import { Button } from "@surge/design-system/components/ui/button";
-import type { Dictionary } from "@surge/internationalization";
+import { Button } from "@surgeteam/design-system/components/ui/button";
+import type { Dictionary } from "@surgeteam/internationalization";
 import { MoveRight, PhoneCall } from "lucide-react";
 import Link from "next/link";
 import { env } from "@/env";

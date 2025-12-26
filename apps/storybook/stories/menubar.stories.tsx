@@ -14,7 +14,7 @@ import {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
-} from "@surge/design-system/components/ui/menubar";
+} from "@surgeteam/design-system/components/ui/menubar";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

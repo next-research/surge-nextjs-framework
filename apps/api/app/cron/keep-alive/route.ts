@@ -1,4 +1,4 @@
-import { database } from "@surge/database";
+import { database } from "@surgeteam/database";
 
 export const GET = async () => {
   const newPage = await database.page.create({

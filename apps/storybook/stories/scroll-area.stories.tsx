@@ -1,4 +1,4 @@
-import { ScrollArea } from "@surge/design-system/components/ui/scroll-area";
+import { ScrollArea } from "@surgeteam/design-system/components/ui/scroll-area";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

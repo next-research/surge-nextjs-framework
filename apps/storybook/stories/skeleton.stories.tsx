@@ -1,4 +1,4 @@
-import { Skeleton } from "@surge/design-system/components/ui/skeleton";
+import { Skeleton } from "@surgeteam/design-system/components/ui/skeleton";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

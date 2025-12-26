@@ -1,4 +1,4 @@
-import type { Dictionary } from "@surge/internationalization";
+import type { Dictionary } from "@surgeteam/internationalization";
 import { User } from "lucide-react";
 
 type FeaturesProps = {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMyPresence, useOthers } from "@surge/collaboration/hooks";
+import { useMyPresence, useOthers } from "@surgeteam/collaboration/hooks";
 import { useEffect } from "react";
 
 const Cursor = ({

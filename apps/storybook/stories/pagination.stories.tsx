@@ -6,7 +6,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@surge/design-system/components/ui/pagination";
+} from "@surgeteam/design-system/components/ui/pagination";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

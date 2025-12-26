@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import { blog, legal } from "@surge/cms";
+import { blog, legal } from "@surgeteam/cms";
 import type { MetadataRoute } from "next";
 import { env } from "@/env";
 

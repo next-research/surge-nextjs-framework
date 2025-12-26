@@ -1,4 +1,4 @@
-import { AnalyticsProvider } from "@surge/analytics/provider";
+import { AnalyticsProvider } from "@surgeteam/analytics/provider";
 import type { ReactNode } from "react";
 
 type RootLayoutProperties = {

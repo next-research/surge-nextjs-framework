@@ -1,4 +1,4 @@
-import { Toggle } from "@surge/design-system/components/ui/toggle";
+import { Toggle } from "@surgeteam/design-system/components/ui/toggle";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Bold, Italic } from "lucide-react";
 

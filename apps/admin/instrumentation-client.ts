@@ -1,5 +1,5 @@
-import { initializeAnalytics } from "@surge/analytics/instrumentation-client";
-import { initializeSentry } from "@surge/observability/client";
+import { initializeAnalytics } from "@surgeteam/analytics/instrumentation-client";
+import { initializeSentry } from "@surgeteam/observability/client";
 
 initializeSentry();
 initializeAnalytics();

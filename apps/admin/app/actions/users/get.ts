@@ -4,7 +4,7 @@ import {
   auth,
   clerkClient,
   type OrganizationMembership,
-} from "@surge/auth/server";
+} from "@surgeteam/auth/server";
 
 const getName = (user: OrganizationMembership): string | undefined => {
   let name = user.publicUserData?.firstName;

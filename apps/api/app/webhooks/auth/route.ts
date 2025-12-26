@@ -1,12 +1,12 @@
-import { analytics } from "@surge/analytics/server";
+import { analytics } from "@surgeteam/analytics/server";
 import type {
   DeletedObjectJSON,
   OrganizationJSON,
   OrganizationMembershipJSON,
   UserJSON,
   WebhookEvent,
-} from "@surge/auth/server";
-import { log } from "@surge/observability/log";
+} from "@surgeteam/auth/server";
+import { log } from "@surgeteam/observability/log";
 import { headers } from "next/headers";
 import { NextResponse } from "next/server";
 import { Webhook } from "svix";

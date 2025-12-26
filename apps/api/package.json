@@ -13,14 +13,14 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@surge/analytics": "workspace:*",
-    "@surge/auth": "workspace:*",
-    "@surge/database": "workspace:*",
-    "@surge/design-system": "workspace:*",
-    "@surge/next-config": "workspace:*",
-    "@surge/observability": "workspace:*",
-    "@surge/payments": "workspace:*",
-    "@sentry/nextjs": "^10.29.0",
+    "@surgeteam/analytics": "workspace:*",
+    "@surgeteam/auth": "workspace:*",
+    "@surgeteam/database": "workspace:*",
+    "@surgeteam/design-system": "workspace:*",
+    "@surgeteam/next-config": "workspace:*",
+    "@surgeteam/observability": "workspace:*",
+    "@surgeteam/payments": "workspace:*",
+    "@sentry/nextjs": "^10.32.1",
     "@t3-oss/env-nextjs": "^0.13.8",
     "import-in-the-middle": "^2.0.0",
     "next": "16.0.10",
@@ -31,7 +31,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@surge/typescript-config": "workspace:*",
+    "@surgeteam/typescript-config": "workspace:*",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",

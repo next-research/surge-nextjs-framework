@@ -7,7 +7,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@surge/design-system/components/ui/dialog";
+} from "@surgeteam/design-system/components/ui/dialog";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

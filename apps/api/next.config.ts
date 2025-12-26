@@ -1,5 +1,5 @@
-import { config, withAnalyzer } from "@surge/next-config";
-import { withLogging, withSentry } from "@surge/observability/next-config";
+import { config, withAnalyzer } from "@surgeteam/next-config";
+import { withLogging, withSentry } from "@surgeteam/observability/next-config";
 import type { NextConfig } from "next";
 import { env } from "@/env";
 

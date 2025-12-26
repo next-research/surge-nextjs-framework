@@ -2,7 +2,7 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@surge/design-system/components/ui/avatar";
+} from "@surgeteam/design-system/components/ui/avatar";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

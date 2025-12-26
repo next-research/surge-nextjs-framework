@@ -1,7 +1,7 @@
 import {
   RadioGroup,
   RadioGroupItem,
-} from "@surge/design-system/components/ui/radio-group";
+} from "@surgeteam/design-system/components/ui/radio-group";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

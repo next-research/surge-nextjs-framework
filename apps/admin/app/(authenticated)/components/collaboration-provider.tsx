@@ -1,6 +1,6 @@
 "use client";
 
-import { Room } from "@surge/collaboration/room";
+import { Room } from "@surgeteam/collaboration/room";
 import type { ReactNode } from "react";
 import { getUsers } from "@/app/actions/users/get";
 import { searchUsers } from "@/app/actions/users/search";

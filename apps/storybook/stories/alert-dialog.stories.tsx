@@ -8,7 +8,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@surge/design-system/components/ui/alert-dialog";
+} from "@surgeteam/design-system/components/ui/alert-dialog";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

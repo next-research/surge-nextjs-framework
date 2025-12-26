@@ -1,4 +1,4 @@
-import { Badge } from "@surge/design-system/components/ui/badge";
+import { Badge } from "@surgeteam/design-system/components/ui/badge";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

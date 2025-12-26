@@ -1,4 +1,4 @@
-import { Input } from "@surge/design-system/components/ui/input";
+import { Input } from "@surgeteam/design-system/components/ui/input";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

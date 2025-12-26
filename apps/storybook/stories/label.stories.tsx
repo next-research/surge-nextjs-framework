@@ -1,4 +1,4 @@
-import { Label } from "@surge/design-system/components/ui/label";
+import { Label } from "@surgeteam/design-system/components/ui/label";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

@@ -12,7 +12,7 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from "@surge/design-system/components/ui/context-menu";
+} from "@surgeteam/design-system/components/ui/context-menu";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

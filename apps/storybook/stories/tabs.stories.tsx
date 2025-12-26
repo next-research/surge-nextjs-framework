@@ -3,7 +3,7 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@surge/design-system/components/ui/tabs";
+} from "@surgeteam/design-system/components/ui/tabs";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

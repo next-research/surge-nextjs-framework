@@ -1,4 +1,4 @@
-import { Separator } from "@surge/design-system/components/ui/separator";
+import { Separator } from "@surgeteam/design-system/components/ui/separator";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

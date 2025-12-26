@@ -2,7 +2,7 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@surge/design-system/components/ui/avatar";
+} from "@surgeteam/design-system/components/ui/avatar";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -10,12 +10,12 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@surge/design-system/components/ui/breadcrumb";
+} from "@surgeteam/design-system/components/ui/breadcrumb";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@surge/design-system/components/ui/collapsible";
+} from "@surgeteam/design-system/components/ui/collapsible";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -25,8 +25,8 @@ import {
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
-} from "@surge/design-system/components/ui/dropdown-menu";
-import { Separator } from "@surge/design-system/components/ui/separator";
+} from "@surgeteam/design-system/components/ui/dropdown-menu";
+import { Separator } from "@surgeteam/design-system/components/ui/separator";
 import {
   Sidebar,
   SidebarContent,
@@ -45,7 +45,7 @@ import {
   SidebarProvider,
   SidebarRail,
   SidebarTrigger,
-} from "@surge/design-system/components/ui/sidebar";
+} from "@surgeteam/design-system/components/ui/sidebar";
 import type { Meta, StoryObj } from "@storybook/react";
 import {
   AudioWaveform,

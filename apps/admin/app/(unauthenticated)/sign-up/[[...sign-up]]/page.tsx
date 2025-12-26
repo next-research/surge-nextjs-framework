@@ -1,11 +1,11 @@
-import { createMetadata } from "@surge/seo/metadata";
+import { createMetadata } from "@surgeteam/seo/metadata";
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 
 const title = "Create an account";
 const description = "Enter your details to get started.";
 const SignUp = dynamic(() =>
-  import("@surge/auth/components/sign-up").then((mod) => mod.SignUp)
+  import("@surgeteam/auth/components/sign-up").then((mod) => mod.SignUp)
 );
 
 export const metadata: Metadata = createMetadata({ title, description });

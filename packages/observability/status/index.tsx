@@ -12,7 +12,7 @@ export const Status = async () => {
 
   let statusColor = "bg-muted-foreground";
   let statusLabel = "Unable to fetch status";
-
+Sentry.logger.info("Initializing logtail logger");
   try {
     const response = await fetch(
       "https://uptime.betterstack.com/api/v2/monitors",

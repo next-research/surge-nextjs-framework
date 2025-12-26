@@ -1,11 +1,13 @@
-import { auth, currentUser } from "@surge/auth/server";
-import { showBetaFeature } from "@surge/feature-flags";
-import { secure } from "@surge/security";
+import { auth } from "@surgeteam/auth/better-auth/server";
+import { showBetaFeature } from "@surgeteam/feature-flags";
+import { secure } from "@surgeteam/security";
 import type { ReactNode } from "react";
 import { env } from "@/env";
-import { getDictionary } from "@surge/internationalization";
+import { getDictionary } from "@surgeteam/internationalization";
 import { Header } from "./components/header";
 import { Footer } from "./components/footer";
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
 
 type AppLayoutProperties = {
   readonly children: ReactNode;
@@ -22,13 +24,20 @@ const AppLayout = async ({ children, params }: AppLayoutProperties) => {
   const dictionary = await getDictionary(locale);
 
 
-  const user = await currentUser();
-  const { redirectToSignIn } = await auth();
+  // const user = await currentUser();
+  // const { redirectToSignIn } = await auth();
+  const session = await auth.api.getSession({
+    headers: await headers(), // from next/headers
+  });
+  if (!session?.user) {
+    return redirect('/sign-in'); // from next/navigation
+  }
+    
   const betaFeature = await showBetaFeature();
 
-  if (!user) {
-    return redirectToSignIn();
-  }
+  // if (!user) {
+  //   return redirectToSignIn();
+  // }
 
   return (
     <>

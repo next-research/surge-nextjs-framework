@@ -7,7 +7,7 @@ import {
   SelectSeparator,
   SelectTrigger,
   SelectValue,
-} from "@surge/design-system/components/ui/select";
+} from "@surgeteam/design-system/components/ui/select";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

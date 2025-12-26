@@ -5,8 +5,8 @@ import {
   type CarouselApi,
   CarouselContent,
   CarouselItem,
-} from "@surge/design-system/components/ui/carousel";
-import type { Dictionary } from "@surge/internationalization";
+} from "@surgeteam/design-system/components/ui/carousel";
+import type { Dictionary } from "@surgeteam/internationalization";
 import { useEffect, useState } from "react";
 
 type CasesProps = {

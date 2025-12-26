@@ -1,1 +1,1 @@
-export * from "@surge/collaboration/config";
+export * from "@surgeteam/collaboration/config";

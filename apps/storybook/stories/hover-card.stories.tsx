@@ -2,7 +2,7 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@surge/design-system/components/ui/hover-card";
+} from "@surgeteam/design-system/components/ui/hover-card";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

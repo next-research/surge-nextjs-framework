@@ -1,3 +1,5 @@
 import { log as logtail } from "@logtail/next";
-
-export const log = process.env.NODE_ENV === "production" ? logtail : console;
+import * as Sentry from "@sentry/nextjs";
+console.log("运行环境：", process.env.NODE_ENV);
+// export const log: any = process.env.NODE_ENV === "production" ? Sentry.logger : console;
+export const log: any = Sentry.logger;

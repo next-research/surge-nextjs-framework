@@ -7,7 +7,7 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from "@surge/design-system/components/ui/drawer";
+} from "@surgeteam/design-system/components/ui/drawer";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

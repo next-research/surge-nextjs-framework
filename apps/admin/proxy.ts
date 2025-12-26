@@ -1,9 +1,9 @@
-import { authMiddleware } from "@surge/auth/proxy";
+import { authMiddleware } from "@surgeteam/auth/proxy";
 import {
   noseconeOptions,
   noseconeOptionsWithToolbar,
   securityMiddleware,
-} from "@surge/security/proxy";
+} from "@surgeteam/security/proxy";
 import type { NextProxy } from "next/server";
 import { env } from "./env";
 

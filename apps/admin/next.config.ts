@@ -1,6 +1,6 @@
-import { withToolbar } from "@surge/feature-flags/lib/toolbar";
-import { config, withAnalyzer } from "@surge/next-config";
-import { withLogging, withSentry } from "@surge/observability/next-config";
+import { withToolbar } from "@surgeteam/feature-flags/lib/toolbar";
+import { config, withAnalyzer } from "@surgeteam/next-config";
+import { withLogging, withSentry } from "@surgeteam/observability/next-config";
 import type { NextConfig } from "next";
 import { env } from "@/env";
 

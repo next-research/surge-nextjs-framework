@@ -1,5 +1,5 @@
 import { analytics } from "@surgeteam/analytics/server";
-import { auth } from "@surgeteam/auth/server";
+import { auth } from "@surgeteam/auth/better-auth/server";
 import { flag } from "flags/next";
 
 export const createFlag = (key: string) =>

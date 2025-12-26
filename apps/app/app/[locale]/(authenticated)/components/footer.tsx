@@ -1,6 +1,6 @@
-import { legal } from "@surge/cms";
-import { Feed } from "@surge/cms/components/feed";
-import { Status } from "@surge/observability/status";
+import { legal } from "@surgeteam/cms";
+import { Feed } from "@surgeteam/cms/components/feed";
+// import { Status } from "@surgeteam/observability/status";
 import Link from "next/link";
 import { env } from "@/env";
 
@@ -56,7 +56,7 @@ export const Footer = () => (
                       This is the start of something new.
                     </p>
                   </div>
-                  <Status />
+                  {/* <Status /> */}
                 </div>
                 <div className="grid items-start gap-10 lg:grid-cols-3">
                   {navigationItems.map((item) => (

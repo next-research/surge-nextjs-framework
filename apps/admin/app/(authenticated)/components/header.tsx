@@ -5,9 +5,9 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@surge/design-system/components/ui/breadcrumb";
-import { Separator } from "@surge/design-system/components/ui/separator";
-import { SidebarTrigger } from "@surge/design-system/components/ui/sidebar";
+} from "@surgeteam/design-system/components/ui/breadcrumb";
+import { Separator } from "@surgeteam/design-system/components/ui/separator";
+import { SidebarTrigger } from "@surgeteam/design-system/components/ui/sidebar";
 import { Fragment, type ReactNode } from "react";
 
 type HeaderProps = {

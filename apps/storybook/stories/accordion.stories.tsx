@@ -3,7 +3,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@surge/design-system/components/ui/accordion";
+} from "@surgeteam/design-system/components/ui/accordion";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

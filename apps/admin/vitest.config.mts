@@ -10,7 +10,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./"),
-      "@surge": path.resolve(__dirname, "../../packages"),
+      "@surgeteam": path.resolve(__dirname, "../../packages"),
     },
   },
 });

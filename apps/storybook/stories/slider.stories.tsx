@@ -1,4 +1,4 @@
-import { Slider } from "@surge/design-system/components/ui/slider";
+import { Slider } from "@surgeteam/design-system/components/ui/slider";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

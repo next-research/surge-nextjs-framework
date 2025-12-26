@@ -1,5 +1,5 @@
-import { Button } from "@surge/design-system/components/ui/button";
-import { Input } from "@surge/design-system/components/ui/input";
+import { Button } from "@surgeteam/design-system/components/ui/button";
+import { Input } from "@surgeteam/design-system/components/ui/input";
 import { ArrowRightIcon, SearchIcon } from "lucide-react";
 
 export const Search = () => (

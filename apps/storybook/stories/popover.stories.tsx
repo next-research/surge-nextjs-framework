@@ -2,7 +2,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@surge/design-system/components/ui/popover";
+} from "@surgeteam/design-system/components/ui/popover";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

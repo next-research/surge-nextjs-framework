@@ -6,7 +6,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@surge/design-system/components/ui/table";
+} from "@surgeteam/design-system/components/ui/table";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const invoices = [

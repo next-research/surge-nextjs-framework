@@ -1,5 +1,5 @@
-import { auth } from "@surge/auth/server";
-import { database } from "@surge/database";
+import { auth } from "@surgeteam/auth/server";
+import { database } from "@surgeteam/database";
 import { notFound, redirect } from "next/navigation";
 import { Header } from "../components/header";
 

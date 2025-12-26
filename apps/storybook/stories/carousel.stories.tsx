@@ -4,7 +4,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@surge/design-system/components/ui/carousel";
+} from "@surgeteam/design-system/components/ui/carousel";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

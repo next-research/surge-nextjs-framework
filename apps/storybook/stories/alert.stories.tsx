@@ -2,7 +2,7 @@ import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from "@surge/design-system/components/ui/alert";
+} from "@surgeteam/design-system/components/ui/alert";
 import type { Meta, StoryObj } from "@storybook/react";
 import { AlertCircle } from "lucide-react";
 

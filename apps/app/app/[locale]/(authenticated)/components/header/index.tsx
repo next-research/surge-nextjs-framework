@@ -1,7 +1,7 @@
 "use client";
 
-import { ModeToggle } from "@surge/design-system/components/mode-toggle";
-import { Button } from "@surge/design-system/components/ui/button";
+import { ModeToggle } from "@surgeteam/design-system/components/mode-toggle";
+import { Button } from "@surgeteam/design-system/components/ui/button";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -9,8 +9,8 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@surge/design-system/components/ui/navigation-menu";
-import type { Dictionary } from "@surge/internationalization";
+} from "@surgeteam/design-system/components/ui/navigation-menu";
+import type { Dictionary } from "@surgeteam/internationalization";
 import { CommandIcon, Menu, MoveRight, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

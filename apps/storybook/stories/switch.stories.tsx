@@ -1,4 +1,4 @@
-import { Switch } from "@surge/design-system/components/ui/switch";
+import { Switch } from "@surgeteam/design-system/components/ui/switch";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

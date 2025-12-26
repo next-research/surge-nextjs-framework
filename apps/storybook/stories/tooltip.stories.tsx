@@ -3,7 +3,7 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@surge/design-system/components/ui/tooltip";
+} from "@surgeteam/design-system/components/ui/tooltip";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Plus } from "lucide-react";
 

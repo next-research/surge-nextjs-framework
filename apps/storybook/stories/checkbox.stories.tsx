@@ -1,4 +1,4 @@
-import { Checkbox } from "@surge/design-system/components/ui/checkbox";
+import { Checkbox } from "@surgeteam/design-system/components/ui/checkbox";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**
